@@ -18,8 +18,9 @@ $hydra = HydraClassFactory::fromPath('path/to/your/config.jsonld');
 $hydra->getProperties(); // returns an array of HydraProperty objects
 ```
 
+## Utility classes
 
-## Form
+### Form
 The Form class can build a HTML form based on the Hydra config file.
 
 #### Adding elements
@@ -51,3 +52,9 @@ $form->build(function(Array $elements) {
 	return $form;
 });
 ```
+
+
+## Todo
+
+- [ ] Add a Grid or List utility class
+- [ ] Implement Members
