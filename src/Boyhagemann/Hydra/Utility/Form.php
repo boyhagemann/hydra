@@ -1,6 +1,6 @@
 <?php
 
-namespace Boyhagemann\Hydra;
+namespace Boyhagemann\Hydra\Utility;
 
 class Form
 {
