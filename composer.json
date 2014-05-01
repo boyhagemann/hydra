@@ -1,0 +1,15 @@
+{
+	"name": "boyhagemann/hydra",
+	"description": "Simple PHP Hydra wrapper class",
+	"keywords": ["hydra", "json-ld"],
+	"license": "MIT",
+	"require": {
+		"ml/json-ld": "1.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Boyhagemann\\Hydra": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}
