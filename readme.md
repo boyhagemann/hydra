@@ -53,6 +53,12 @@ $form->build(function(Array $elements) {
 });
 ```
 
+#### Render the form
+Now that all elements and mappings are completed, we can render the Hydra class.
+```php
+$form->render($hydra);
+```
+
 
 ## Todo
 
