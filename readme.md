@@ -1,10 +1,11 @@
 ## Hydra
 
-#### About Hydra
-Hydra is an effort to simplify the development of interoperable, hypermedia-driven Web APIs. The two fundamental building blocks of Hydra are JSON‑LD and the Hydra Core Vocabulary.
+[Hydra](http://www.markus-lanthaler.com/hydra) is an effort to simplify the development of interoperable, hypermedia-driven Web APIs. The two fundamental building blocks of Hydra are JSON‑LD and the Hydra Core Vocabulary.
 
-#### About JSON-LD
 JSON‑LD is the serialization format used in the communication between the server and its clients. The Hydra Core Vocabulary represents the shared vocabulary between them. By specifying a number of concepts which are commonly used in Web APIs it can be used as the foundation to build Web services that share REST's benefits in terms of loose coupling, maintainability, evolvability, and scalability. Furthermore it enables the creation of generic API clients instead of requiring specialized clients for every single API.
+
+This package provides simple wrapper classes to read JSON-LD config and presents them as Hydra objects.
+You can then use the Form utility class to render an HTML form based on the Hydra properties.
 
 ## Reading the JSON-LD file
 The config file can return an object that represents the json structure.
